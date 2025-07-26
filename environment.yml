@@ -1,0 +1,10 @@
+name: agentic-hackathon
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - google-adk
+  - pip
+  - pip:
+    - requests

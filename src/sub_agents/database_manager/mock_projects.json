@@ -1,0 +1,401 @@
+[
+    {
+        "id": "1",
+        "animal_subjects": "no",
+        "award_amount": 100500,
+        "award_number": "65646",
+        "created_at": "July 25, 2025 at 8:31:48 PM UTC-4",
+        "description": "This comprehensive research project examines the evolution and contemporary relevance of African art forms in the 21st century, with particular focus on how traditional artistic practices have adapted to modern contexts. The study will analyze various mediums including sculpture, textiles, painting, and digital art from multiple African regions. Through extensive fieldwork, interviews with contemporary African artists, and analysis of museum collections, this research aims to document the cultural significance and global influence of African artistic traditions. The project will also explore how colonialism and globalization have impacted artistic expression and identity across the continent.",
+        "end_date": "2025-10-18",
+        "human_subjects": "no",
+        "investigator": "Alexa Tivik",
+        "sponsor": "National Science Foundation",
+        "start_date": "2025-05-16",
+        "status": "active",
+        "tags": [
+            "africa",
+            "art"
+        ],
+        "title": "African Art and 21st century"
+    },
+    {
+        "id": "2",
+        "animal_subjects": "yes",
+        "award_amount": 250000,
+        "award_number": "78923",
+        "created_at": "June 15, 2025 at 2:15:30 PM UTC-4",
+        "description": "This interdisciplinary marine research project focuses on assessing the biodiversity and ecological health of coral reef ecosystems along the Pacific coastline. The study employs advanced underwater surveying techniques, genetic analysis of marine species, and long-term monitoring protocols to understand the complex relationships between coral health and marine life populations. Research activities include deploying underwater sensors, conducting fish population counts, collecting water quality samples, and analyzing the impact of climate change on reef ecosystems. The project aims to develop evidence-based restoration strategies and provide critical data for marine conservation policies. Findings will contribute to global understanding of ocean ecosystem resilience and inform sustainable fishing practices.",
+        "end_date": "2026-06-30",
+        "human_subjects": "no",
+        "investigator": "Maria Rodriguez",
+        "sponsor": "National Oceanic and Atmospheric Administration",
+        "start_date": "2025-07-01",
+        "status": "active",
+        "tags": [
+            "marine",
+            "biodiversity",
+            "ecosystem"
+        ],
+        "title": "Coral Reef Restoration and Marine Life Impact Assessment"
+    },
+    {
+        "id": "3",
+        "animal_subjects": "no",
+        "award_amount": 75000,
+        "award_number": "45231",
+        "created_at": "April 10, 2025 at 9:45:12 AM UTC-4",
+        "description": "This critical research project addresses the growing ethical concerns surrounding artificial intelligence implementation in healthcare settings. The study examines algorithmic bias in medical diagnosis systems, patient privacy protection in AI-driven healthcare platforms, and the moral implications of automated medical decision-making. Through comprehensive case studies, stakeholder interviews, and analysis of existing AI healthcare applications, researchers will develop ethical frameworks for responsible AI deployment in medical contexts. The project includes collaboration with healthcare professionals, ethicists, and technology developers to create practical guidelines for AI governance in healthcare institutions. Key focus areas include informed consent protocols, transparency in AI decision-making processes, and equitable access to AI-enhanced medical services.",
+        "end_date": "2025-12-31",
+        "human_subjects": "yes",
+        "investigator": "James Chen",
+        "sponsor": "Department of Health and Human Services",
+        "start_date": "2025-04-15",
+        "status": "active",
+        "tags": [
+            "ai",
+            "ethics",
+            "healthcare"
+        ],
+        "title": "Ethical Frameworks for AI-Driven Medical Diagnosis"
+    },
+    {
+        "id": "4",
+        "animal_subjects": "yes",
+        "award_amount": 180000,
+        "award_number": "92847",
+        "created_at": "March 22, 2025 at 11:20:45 AM UTC-4",
+        "description": "This longitudinal neuroscience study investigates cognitive development patterns and behavioral adaptations in non-human primates, specifically focusing on problem-solving abilities, social learning mechanisms, and memory formation. Using non-invasive neuroimaging techniques, behavioral observation protocols, and cognitive testing batteries, researchers will track neural development across different age groups of primates in controlled research environments. The study aims to understand the neurological basis of learning, decision-making, and social interaction in primates, which may provide insights into human cognitive evolution and neurological disorders. Advanced brain imaging technology will be used to map neural activity during various cognitive tasks, while behavioral assessments will measure problem-solving capabilities, tool use, and social communication patterns among primate groups.",
+        "end_date": "2026-03-31",
+        "human_subjects": "no",
+        "investigator": "Sarah Williams",
+        "sponsor": "National Institutes of Health",
+        "start_date": "2025-04-01",
+        "status": "active",
+        "tags": [
+            "neurology",
+            "primates",
+            "behavior"
+        ],
+        "title": "Cognitive Development in Non-Human Primates"
+    },
+    {
+        "id": "5",
+        "animal_subjects": "no",
+        "award_amount": 95000,
+        "award_number": "33456",
+        "created_at": "February 18, 2025 at 4:30:22 PM UTC-5",
+        "description": "This innovative engineering research project focuses on developing next-generation battery technologies specifically designed for large-scale renewable energy storage applications. The research encompasses advanced materials science, electrochemical engineering, and sustainable manufacturing processes to create more efficient, longer-lasting, and environmentally friendly energy storage solutions. Key research activities include testing novel electrode materials, optimizing battery chemistry formulations, and developing scalable manufacturing techniques. The project addresses critical challenges in grid-scale energy storage, including cost reduction, capacity improvement, safety enhancement, and recycling protocols. Laboratory testing will evaluate battery performance under various environmental conditions, while economic analysis will assess commercial viability and market potential for widespread deployment in renewable energy infrastructure.",
+        "end_date": "2025-08-30",
+        "human_subjects": "no",
+        "investigator": "Michael Thompson",
+        "sponsor": "Department of Energy",
+        "start_date": "2025-03-01",
+        "status": "completed",
+        "tags": [
+            "renewable",
+            "energy",
+            "storage"
+        ],
+        "title": "Advanced Battery Technologies for Grid-Scale Storage"
+    },
+    {
+        "id": "6",
+        "animal_subjects": "no",
+        "award_amount": 120000,
+        "award_number": "56789",
+        "created_at": "January 30, 2025 at 1:15:33 PM UTC-5",
+        "description": "This comprehensive urban planning research project examines how climate change impacts are reshaping city development strategies and infrastructure planning worldwide. The study analyzes adaptation strategies employed by various metropolitan areas, evaluating the effectiveness of green infrastructure, flood management systems, and sustainable transportation networks. Research methodologies include GIS mapping of climate vulnerability, stakeholder interviews with urban planners and city officials, and comparative analysis of climate adaptation policies across different geographic regions. The project aims to develop evidence-based recommendations for creating climate-resilient urban environments that can withstand extreme weather events while maintaining economic viability and social equity. Special attention is given to community engagement processes and the integration of traditional ecological knowledge in modern urban planning practices.",
+        "end_date": "2026-01-31",
+        "human_subjects": "yes",
+        "investigator": "Lisa Anderson",
+        "sponsor": "Environmental Protection Agency",
+        "start_date": "2025-02-01",
+        "status": "active",
+        "tags": [
+            "climate",
+            "urban",
+            "planning"
+        ],
+        "title": "Sustainable Urban Development in Changing Climate"
+    },
+    {
+        "id": "7",
+        "animal_subjects": "yes",
+        "award_amount": 200000,
+        "award_number": "77123",
+        "created_at": "May 5, 2025 at 10:45:18 AM UTC-4",
+        "description": "This cutting-edge conservation genetics project employs advanced genomic sequencing technologies to analyze genetic diversity patterns in critically endangered species populations. The research combines field sampling, laboratory analysis, and bioinformatics to assess population health, identify genetic bottlenecks, and develop targeted conservation strategies. Key activities include collecting tissue samples from endangered species in their natural habitats, conducting whole-genome sequencing analysis, and creating genetic maps to understand evolutionary relationships and adaptive potential. The project collaborates with wildlife conservation organizations, zoos, and international research institutions to establish genetic databases that inform breeding programs and habitat protection efforts. Results will provide crucial scientific foundation for species recovery plans and help prioritize conservation resources for maximum impact on biodiversity preservation.",
+        "end_date": "2026-05-31",
+        "human_subjects": "no",
+        "investigator": "Robert Kim",
+        "sponsor": "Fish and Wildlife Service",
+        "start_date": "2025-06-01",
+        "status": "pending",
+        "tags": [
+            "genetics",
+            "endangered",
+            "conservation"
+        ],
+        "title": "Genomic Analysis for Species Conservation Programs"
+    },
+    {
+        "id": "8",
+        "animal_subjects": "no",
+        "award_amount": 85000,
+        "award_number": "44892",
+        "created_at": "December 12, 2024 at 3:22:15 PM UTC-5",
+        "description": "This multidisciplinary psychological research project investigates the complex relationship between social media usage patterns and mental health outcomes among adolescent populations. The study employs mixed-methods research approaches including longitudinal surveys, clinical assessments, social media usage analytics, and qualitative interviews with teenagers, parents, and mental health professionals. Research focuses on identifying specific social media behaviors that correlate with anxiety, depression, and self-esteem issues, while also examining protective factors and positive online experiences. The project includes development of digital wellness interventions and evidence-based guidelines for healthy social media use among young people. Collaboration with schools, mental health clinics, and technology companies will ensure research findings translate into practical applications for improving adolescent digital well-being and mental health support systems.",
+        "end_date": "2025-06-15",
+        "human_subjects": "yes",
+        "investigator": "Amanda Foster",
+        "sponsor": "National Science Foundation",
+        "start_date": "2024-12-15",
+        "status": "active",
+        "tags": [
+            "social media",
+            "mental health",
+            "adolescents"
+        ],
+        "title": "Digital Wellness and Teen Psychology Study"
+    },
+    {
+        "id": "9",
+        "animal_subjects": "no",
+        "award_amount": 165000,
+        "award_number": "55841",
+        "created_at": "March 14, 2025 at 7:20:15 AM UTC-4",
+        "description": "This innovative educational technology research project explores the effectiveness of virtual reality applications in enhancing STEM learning outcomes for middle and high school students. The study combines immersive VR experiences with traditional teaching methods to measure improvements in student engagement, comprehension, and retention across physics, chemistry, and biology subjects. Research methodology includes controlled classroom experiments, pre and post-assessment testing, student focus groups, and teacher interviews to evaluate pedagogical effectiveness. The project involves collaboration with technology developers, educational institutions, and curriculum specialists to create age-appropriate VR learning modules. Key objectives include identifying optimal VR implementation strategies, measuring learning outcome improvements, and developing best practice guidelines for educators interested in integrating virtual reality technology into their science curricula.",
+        "end_date": "2026-02-28",
+        "human_subjects": "yes",
+        "investigator": "David Park",
+        "sponsor": "Department of Education",
+        "start_date": "2025-03-15",
+        "status": "active",
+        "tags": [
+            "education",
+            "virtual reality",
+            "stem"
+        ],
+        "title": "Virtual Reality Applications in STEM Education"
+    },
+    {
+        "id": "10",
+        "animal_subjects": "yes",
+        "award_amount": 275000,
+        "award_number": "69877",
+        "created_at": "April 22, 2025 at 12:45:30 PM UTC-4",
+        "description": "This comprehensive wildlife ecology research project investigates migration patterns and habitat preferences of North American bird species in response to climate change and urbanization pressures. The study utilizes GPS tracking technology, satellite imagery analysis, and long-term population monitoring to understand how changing environmental conditions affect migratory routes, breeding success, and survival rates. Research activities include capturing and tagging birds with lightweight GPS devices, analyzing decade-long population data, and mapping habitat changes using remote sensing technologies. The project collaborates with ornithological societies, wildlife refuges, and citizen science programs to gather comprehensive data across multiple geographic regions. Findings will inform conservation strategies, habitat restoration priorities, and climate adaptation planning for avian species protection.",
+        "end_date": "2027-04-30",
+        "human_subjects": "no",
+        "investigator": "Jennifer Walsh",
+        "sponsor": "National Science Foundation",
+        "start_date": "2025-05-01",
+        "status": "active",
+        "tags": [
+            "birds",
+            "migration",
+            "climate change"
+        ],
+        "title": "Avian Migration Patterns and Climate Adaptation"
+    },
+    {
+        "id": "11",
+        "animal_subjects": "no",
+        "award_amount": 90000,
+        "award_number": "34512",
+        "created_at": "January 18, 2025 at 11:30:45 AM UTC-5",
+        "description": "This interdisciplinary research project examines the historical and contemporary impacts of food systems on community health outcomes in urban environments. The study analyzes relationships between food accessibility, nutritional quality, economic factors, and public health indicators across diverse metropolitan neighborhoods. Research methodology includes GIS mapping of food deserts, nutritional analysis of available food options, household surveys on eating habits and health outcomes, and interviews with community leaders and public health officials. The project aims to identify policy interventions that can improve food security and reduce diet-related chronic diseases in underserved urban communities. Collaboration with local health departments, community organizations, and urban planning agencies will ensure research findings translate into actionable recommendations for improving urban food systems and promoting population health equity.",
+        "end_date": "2025-12-15",
+        "human_subjects": "yes",
+        "investigator": "Michelle Torres",
+        "sponsor": "Centers for Disease Control and Prevention",
+        "start_date": "2025-01-20",
+        "status": "active",
+        "tags": [
+            "food systems",
+            "public health",
+            "urban"
+        ],
+        "title": "Urban Food Systems and Community Health Outcomes"
+    },
+    {
+        "id": "12",
+        "animal_subjects": "no",
+        "award_amount": 220000,
+        "award_number": "81934",
+        "created_at": "May 28, 2025 at 3:15:20 PM UTC-4",
+        "description": "This advanced materials science research project focuses on developing biodegradable plastic alternatives using innovative bio-based polymer technologies. The study combines chemistry, environmental science, and engineering approaches to create sustainable packaging materials that maintain performance characteristics while decomposing naturally in various environmental conditions. Research activities include synthesizing novel biopolymers from agricultural waste, testing mechanical properties and durability, conducting biodegradability assessments in different soil and water conditions, and analyzing lifecycle environmental impacts. The project collaborates with packaging manufacturers, environmental testing laboratories, and waste management facilities to evaluate real-world application potential. Key objectives include reducing plastic pollution, creating economically viable sustainable alternatives, and establishing industry standards for biodegradable packaging materials.",
+        "end_date": "2026-11-30",
+        "human_subjects": "no",
+        "investigator": "Kevin Martinez",
+        "sponsor": "Environmental Protection Agency",
+        "start_date": "2025-06-01",
+        "status": "active",
+        "tags": [
+            "materials",
+            "sustainability",
+            "biodegradable"
+        ],
+        "title": "Biodegradable Plastic Alternatives from Agricultural Waste"
+    },
+    {
+        "id": "13",
+        "animal_subjects": "no",
+        "award_amount": 135000,
+        "award_number": "47235",
+        "created_at": "February 8, 2025 at 9:20:10 AM UTC-5",
+        "description": "This comprehensive cybersecurity research project investigates emerging threats and vulnerabilities in Internet of Things (IoT) networks, with particular focus on smart home and industrial automation systems. The study employs penetration testing, network traffic analysis, and machine learning algorithms to identify security weaknesses and develop robust protection mechanisms. Research activities include analyzing IoT device communications, testing encryption protocols, simulating cyberattack scenarios, and developing automated threat detection systems. The project collaborates with cybersecurity firms, IoT manufacturers, and government agencies to understand real-world security challenges and implementation barriers. Findings will contribute to improved security standards, best practice guidelines for IoT deployment, and advanced threat detection technologies that protect critical infrastructure and personal privacy in increasingly connected environments.",
+        "end_date": "2026-01-15",
+        "human_subjects": "no",
+        "investigator": "Rachel Johnson",
+        "sponsor": "Department of Homeland Security",
+        "start_date": "2025-02-10",
+        "status": "active",
+        "tags": [
+            "cybersecurity",
+            "iot",
+            "network security"
+        ],
+        "title": "IoT Security Vulnerabilities and Protection Mechanisms"
+    },
+    {
+        "id": "14",
+        "animal_subjects": "yes",
+        "award_amount": 195000,
+        "award_number": "72684",
+        "created_at": "June 3, 2025 at 4:45:55 PM UTC-4",
+        "description": "This innovative veterinary research project investigates the effectiveness of regenerative medicine techniques in treating chronic joint diseases in companion animals, particularly dogs and cats. The study combines stem cell therapy, tissue engineering, and advanced imaging technologies to develop minimally invasive treatments for arthritis and joint injuries. Research methodology includes collecting and culturing mesenchymal stem cells, developing biocompatible scaffolds for tissue regeneration, conducting controlled clinical trials with veterinary patients, and using advanced imaging to monitor healing progress. The project collaborates with veterinary hospitals, animal research facilities, and biotechnology companies to evaluate treatment efficacy and safety protocols. Key objectives include improving quality of life for animals with joint diseases, reducing reliance on long-term pain medications, and advancing veterinary regenerative medicine applications.",
+        "end_date": "2026-12-31",
+        "human_subjects": "no",
+        "investigator": "Steven Lee",
+        "sponsor": "National Institutes of Health",
+        "start_date": "2025-06-15",
+        "status": "active",
+        "tags": [
+            "veterinary",
+            "regenerative medicine",
+            "stem cells"
+        ],
+        "title": "Regenerative Medicine for Companion Animal Joint Diseases"
+    },
+    {
+        "id": "15",
+        "animal_subjects": "no",
+        "award_amount": 110000,
+        "award_number": "58321",
+        "created_at": "March 30, 2025 at 1:50:25 PM UTC-4",
+        "description": "This interdisciplinary research project examines the psychological and social factors influencing community resilience in the aftermath of natural disasters. The study focuses on understanding how social networks, cultural practices, and institutional support systems contribute to recovery and adaptation processes following hurricanes, floods, and wildfires. Research methodology includes longitudinal surveys of disaster-affected communities, in-depth interviews with residents and community leaders, analysis of social media communications during crisis periods, and evaluation of government and nonprofit response effectiveness. The project aims to identify factors that promote psychological resilience and community cohesion during disaster recovery. Collaboration with emergency management agencies, mental health organizations, and community groups will ensure findings inform disaster preparedness planning and post-disaster support services.",
+        "end_date": "2026-03-15",
+        "human_subjects": "yes",
+        "investigator": "Nicole Davis",
+        "sponsor": "Federal Emergency Management Agency",
+        "start_date": "2025-04-01",
+        "status": "active",
+        "tags": [
+            "disaster recovery",
+            "community resilience",
+            "psychology"
+        ],
+        "title": "Community Resilience and Psychological Recovery After Natural Disasters"
+    },
+    {
+        "id": "16",
+        "animal_subjects": "no",
+        "award_amount": 185000,
+        "award_number": "93746",
+        "created_at": "April 15, 2025 at 8:25:40 AM UTC-4",
+        "description": "This cutting-edge nanotechnology research project focuses on developing targeted drug delivery systems using engineered nanoparticles for cancer treatment applications. The study combines materials engineering, biochemistry, and pharmacology to create nanocarriers that can selectively deliver therapeutic agents to tumor cells while minimizing damage to healthy tissues. Research activities include synthesizing biocompatible nanoparticles, functionalizing surfaces with targeting molecules, conducting cellular uptake studies, and evaluating drug release mechanisms under various physiological conditions. The project involves collaboration with oncology researchers, pharmaceutical companies, and clinical testing facilities to assess therapeutic potential and safety profiles. Key objectives include improving chemotherapy effectiveness, reducing treatment side effects, and advancing personalized medicine approaches through precision drug delivery technologies.",
+        "end_date": "2026-10-31",
+        "human_subjects": "no",
+        "investigator": "Thomas Wilson",
+        "sponsor": "National Cancer Institute",
+        "start_date": "2025-05-01",
+        "status": "active",
+        "tags": [
+            "nanotechnology",
+            "drug delivery",
+            "cancer"
+        ],
+        "title": "Targeted Nanoparticle Drug Delivery Systems for Cancer Therapy"
+    },
+    {
+        "id": "17",
+        "animal_subjects": "no",
+        "award_amount": 145000,
+        "award_number": "64158",
+        "created_at": "January 25, 2025 at 6:40:15 PM UTC-5",
+        "description": "This comprehensive agricultural research project investigates sustainable farming practices and their impacts on soil health, crop productivity, and environmental sustainability in Midwest farming communities. The study examines cover crop rotation systems, reduced tillage practices, integrated pest management, and precision agriculture technologies to optimize agricultural outcomes while minimizing environmental impact. Research methodology includes soil sampling and analysis, crop yield monitoring, water quality testing, greenhouse gas emission measurements, and economic analysis of farming practice transitions. The project collaborates with farmers, agricultural extension services, and environmental monitoring agencies to evaluate practical implementation challenges and benefits. Findings will inform evidence-based recommendations for sustainable agriculture policies and provide farmers with data-driven strategies for improving long-term land productivity and environmental stewardship.",
+        "end_date": "2026-09-30",
+        "human_subjects": "no",
+        "investigator": "Laura Green",
+        "sponsor": "Department of Agriculture",
+        "start_date": "2025-02-01",
+        "status": "active",
+        "tags": [
+            "agriculture",
+            "sustainability",
+            "soil health"
+        ],
+        "title": "Sustainable Farming Practices and Environmental Impact Assessment"
+    },
+    {
+        "id": "18",
+        "animal_subjects": "no",
+        "award_amount": 125000,
+        "award_number": "39827",
+        "created_at": "May 12, 2025 at 10:15:30 AM UTC-4",
+        "description": "This innovative archaeology research project employs advanced remote sensing technologies and digital documentation methods to investigate and preserve ancient cultural sites threatened by climate change and development pressures. The study combines LiDAR scanning, ground-penetrating radar, photogrammetry, and GIS mapping to create comprehensive digital archives of archaeological sites and artifacts. Research activities include conducting non-invasive site surveys, creating 3D models of structures and landscapes, analyzing spatial patterns of ancient settlements, and developing virtual reality experiences for public education and engagement. The project collaborates with indigenous communities, museums, and cultural heritage organizations to ensure respectful and inclusive approaches to archaeological research and preservation. Key objectives include documenting vulnerable cultural sites, advancing archaeological methodology, and making cultural heritage accessible through digital technologies.",
+        "end_date": "2026-08-15",
+        "human_subjects": "no",
+        "investigator": "Carlos Mendoza",
+        "sponsor": "National Endowment for the Humanities",
+        "start_date": "2025-05-15",
+        "status": "active",
+        "tags": [
+            "archaeology",
+            "digital preservation",
+            "cultural heritage"
+        ],
+        "title": "Digital Documentation and Preservation of Ancient Cultural Sites"
+    },
+    {
+        "id": "19",
+        "animal_subjects": "no",
+        "award_amount": 155000,
+        "award_number": "51492",
+        "created_at": "February 20, 2025 at 2:35:45 PM UTC-5",
+        "description": "This interdisciplinary research project examines the economic and social impacts of remote work adoption on rural communities and regional development patterns. The study analyzes how increased telecommuting opportunities affect population migration, local business development, housing markets, and community infrastructure needs in rural areas. Research methodology includes surveys of remote workers and rural residents, analysis of demographic and economic data, case studies of rural communities experiencing population growth, and interviews with local government officials and business leaders. The project aims to understand how remote work trends can contribute to rural economic revitalization while identifying challenges related to broadband infrastructure, social services, and community integration. Collaboration with economic development agencies and rural planning organizations will ensure findings inform policy recommendations for supporting sustainable rural growth.",
+        "end_date": "2025-11-30",
+        "human_subjects": "yes",
+        "investigator": "Angela Brown",
+        "sponsor": "Department of Commerce",
+        "start_date": "2025-03-01",
+        "status": "active",
+        "tags": [
+            "remote work",
+            "rural development",
+            "economics"
+        ],
+        "title": "Remote Work Impact on Rural Community Development"
+    },
+    {
+        "id": "20",
+        "animal_subjects": "yes",
+        "award_amount": 290000,
+        "award_number": "76483",
+        "created_at": "June 20, 2025 at 5:20:12 PM UTC-4",
+        "description": "This comprehensive marine biology research project investigates the behavioral ecology and population dynamics of deep-sea organisms in response to ocean acidification and temperature changes. The study employs autonomous underwater vehicles, deep-sea sampling equipment, and advanced laboratory analysis to examine how changing ocean chemistry affects feeding behaviors, reproduction patterns, and survival rates of deep-sea species. Research activities include conducting deep-water expeditions, collecting specimens for laboratory analysis, monitoring water chemistry parameters, and analyzing behavioral data from underwater camera systems. The project collaborates with oceanographic institutions, marine research vessels, and international deep-sea research networks to gather data from multiple ocean basins. Findings will contribute to understanding climate change impacts on deep-sea ecosystems and inform conservation strategies for protecting vulnerable marine biodiversity in Earth's least explored environments.",
+        "end_date": "2027-06-30",
+        "human_subjects": "no",
+        "investigator": "Peter Murphy",
+        "sponsor": "National Science Foundation",
+        "start_date": "2025-07-01",
+        "status": "pending",
+        "tags": [
+            "marine biology",
+            "deep sea",
+            "ocean acidification"
+        ],
+        "title": "Deep-Sea Organism Response to Ocean Chemistry Changes"
+    }
+]

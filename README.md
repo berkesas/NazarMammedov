@@ -1,31 +1,28 @@
-# Agentic AI App Hackathon Template
+# Research Lifecycle Management Agentic AI
 
-Welcome! This repository is your starting point for the **Agentic AI App Hackathon**. It includes:
+The purpose of this project is to develop prototype functions for Research Lifecycle Management Agentic AI to be used at institutions where research projects are conducted at large scale such as universities, colleges, etc. It is a complex process and this project develops foundations of the framework. Research lifecycle consists of the following stages.
 
-- A consistent folder structure  
-- An environment spec (`environment.yml` or `Dockerfile`)  
-- Documentation placeholders to explain your design and demo
+![Research Lifecycle Stages](images/research-lifecycle.png)
 
-## 📋 Submission Checklist
+## Setup instructions
 
-- [ ] All code in `src/` runs without errors  
-- [ ] `ARCHITECTURE.md` contains a clear diagram sketch and explanation  
-- [ ] `EXPLANATION.md` covers planning, tool use, memory, and limitations  
-- [ ] `DEMO.md` links to a 3–5 min video with timestamped highlights  
+### Running the backend
 
+```
+# in repo root folder
+python -m venv venv
+pip install Quart quart-cors google-adk dotenv firebase-admin
+python src/agent.py
+```
 
-## 🚀 Getting Started
+### Running the frontend
 
-1. **Clone / Fork** this template.  Very Important. Fork Name MUST be the same name as the teamn name
-2. **Install dependencies**  
-   ```bash
-   # Conda
-   conda env create -f environment.yml
-   conda activate agentic-hackathon
+```
+cd src/frontend
+python -m http.server 8000
+```
 
-   #—or Docker—
-   docker build -t agentic-agent .
-   docker run --rm -it agentic-agent bash
+Adjust ports if you decide to run with different ports
 
 ## 📂 Folder Layout
 
@@ -46,5 +43,3 @@ Welcome! This repository is your starting point for the **Agentic AI App Hackath
 
 - **Societal Impact & Novelty **  
   This evaluates the project's potential to address a meaningful problem, contribute positively to society, or offer a genuinely innovative and unique solution. Judges will consider the originality of the idea, its potential real‑world applicability, and its ability to solve a challenge in a new or impactful way.
-
-

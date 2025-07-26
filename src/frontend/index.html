@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Lifecycle Management Agentic AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj4KICA8IS0tIEJhY2tncm91bmQgY2lyY2xlIHdpdGggZ3JhZGllbnQgLS0+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNjY3ZWVhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM3NjRiYTI7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJpY29uR3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmZmZmZmO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmMGY0ZmY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPCEtLSBHbG93IGVmZmVjdCAtLT4KICAgIDxmaWx0ZXIgaWQ9Imdsb3ciPgogICAgICA8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxIiByZXN1bHQ9ImNvbG9yZWRCbHVyIi8+CiAgICAgIDxmZU1lcmdlPiAKICAgICAgICA8ZmVNZXJnZU5vZGUgaW49ImNvbG9yZWRCbHVyIi8+CiAgICAgICAgPGZlTWVyZ2VOb2RlIGluPSJTb3VyY2VHcmFwaGljIi8+CiAgICAgIDwvZmVNZXJnZT4KICAgIDwvZmlsdGVyPgogIDwvZGVmcz4KICA8IS0tIEJhY2tncm91bmQgLS0+CiAgPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTUiIGZpbGw9InVybCgjYmdHcmFkaWVudCkiIHN0cm9rZT0iIzVhNjdkOCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgPCEtLSBBSSBSb2JvdCBoZWFkIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE2LDE2KSIgZmlsdGVyPSJ1cmwoI2dsb3cpIj4KICAgIDwhLS0gSGVhZCAtLT4KICAgIDxyZWN0IHg9Ii02IiB5PSItOCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEwIiByeD0iMiIgZmlsbD0idXJsKCNpY29uR3JhZGllbnQpIiBzdHJva2U9IiNlMmU4ZjAiIHN0cm9rZS13aWR0aD0iMC41Ii8+CiAgICA8IS0tIEV5ZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSItMyIgY3k9Ii01IiByPSIxLjUiIGZpbGw9IiM2NjdlZWEiLz4KICAgIDxjaXJjbGUgY3g9IjMiIGN5PSItNSIgcj0iMS41IiBmaWxsPSIjNjY3ZWVhIi8+CiAgICA8IS0tIEV5ZSBnbG93IC0tPgogICAgPGNpcmNsZSBjeD0iLTMiIGN5PSItNSIgcj0iMC43IiBmaWxsPSIjNGZhY2ZlIiBvcGFjaXR5PSIwLjgiLz4KICAgIDxjaXJjbGUgY3g9IjMiIGN5PSItNSIgcj0iMC43IiBmaWxsPSIjNGZhY2ZlIiBvcGFjaXR5PSIwLjgiLz4KICAgIDwhLS0gTW91dGgvc3BlYWtlciAtLT4KICAgIDxyZWN0IHg9Ii0yIiB5PSItMSIgd2lkdGg9IjQiIGhlaWdodD0iMSIgcng9IjAuNSIgZmlsbD0iIzljYTNhZiIvPgogICAgPCEtLSBBbnRlbm5hIC0tPgogICAgPGxpbmUgeDE9IjAiIHkxPSItOCIgeDI9IjAiIHkyPSItMTAiIHN0cm9rZT0idXJsKCNpY29uR3JhZGllbnQpIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9Ii0xMCIgcj0iMSIgZmlsbD0iIzRmYWNmZSIvPgogICAgPCEtLSBCb2R5IGNvbm5lY3Rpb24gLS0+CiAgICA8cmVjdCB4PSItMSIgeT0iMiIgd2lkdGg9IjIiIGhlaWdodD0iMyIgZmlsbD0idXJsKCNpY29uR3JhZGllbnQpIi8+CiAgICA8IS0tIE5ldHdvcmsgbm9kZXMgKHJlcHJlc2VudGluZyBtdWx0aS1hZ2VudCkgLS0+CiAgICA8Y2lyY2xlIGN4PSItOCIgY3k9IjAiIHI9IjEiIGZpbGw9IiMxMGY2NTQiIG9wYWNpdHk9IjAuOCIvPgogICAgPGNpcmNsZSBjeD0iOCIgY3k9IjAiIHI9IjEiIGZpbGw9IiMxMGY2NTQiIG9wYWNpdHk9IjAuOCIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjgiIHI9IjEiIGZpbGw9IiMxMGY2NTQiIG9wYWNpdHk9IjAuOCIvPgogICAgPCEtLSBDb25uZWN0aW9uIGxpbmVzIC0tPgogICAgPGxpbmUgeDE9Ii02IiB5MT0iLTIiIHgyPSItOCIgeTI9IjAiIHN0cm9rZT0iIzEwZjY1NCIgc3Ryb2tlLXdpZHRoPSIwLjUiIG9wYWNpdHk9IjAuNiIvPgogICAgPGxpbmUgeDE9IjYiIHkxPSItMiIgeDI9IjgiIHkyPSIwIiBzdHJva2U9IiMxMGY2NTQiIHN0cm9rZS13aWR0aD0iMC41IiBvcGFjaXR5PSIwLjYiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iMiIgeDI9IjAiIHkyPSI4IiBzdHJva2U9IiMxMGY2NTQiIHN0cm9rZS13aWR0aD0iMC41IiBvcGFjaXR5PSIwLjYiLz4KICA8L2c+Cjwvc3ZnPg==">
+    <link rel="shortcut icon"
+        href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIj4KICA8IS0tIEJhY2tncm91bmQgY2lyY2xlIHdpdGggZ3JhZGllbnQgLS0+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNjY3ZWVhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM3NjRiYTI7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJpY29uR3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmZmZmZmO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmMGY0ZmY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPCEtLSBHbG93IGVmZmVjdCAtLT4KICAgIDxmaWx0ZXIgaWQ9Imdsb3ciPgogICAgICA8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxIiByZXN1bHQ9ImNvbG9yZWRCbHVyIi8+CiAgICAgIDxmZU1lcmdlPiAKICAgICAgICA8ZmVNZXJnZU5vZGUgaW49ImNvbG9yZWRCbHVyIi8+CiAgICAgICAgPGZlTWVyZ2VOb2RlIGluPSJTb3VyY2VHcmFwaGljIi8+CiAgICAgIDwvZmVNZXJnZT4KICAgIDwvZmlsdGVyPgogIDwvZGVmcz4KICA8IS0tIEJhY2tncm91bmQgLS0+CiAgPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTUiIGZpbGw9InVybCgjYmdHcmFkaWVudCkiIHN0cm9rZT0iIzVhNjdkOCIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgPCEtLSBBSSBSb2JvdCBoZWFkIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE2LDE2KSIgZmlsdGVyPSJ1cmwoI2dsb3cpIj4KICAgIDwhLS0gSGVhZCAtLT4KICAgIDxyZWN0IHg9Ii02IiB5PSItOCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEwIiByeD0iMiIgZmlsbD0idXJsKCNpY29uR3JhZGllbnQpIiBzdHJva2U9IiNlMmU4ZjAiIHN0cm9rZS13aWR0aD0iMC41Ii8+CiAgICA8IS0tIEV5ZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSItMyIgY3k9Ii01IiByPSIxLjUiIGZpbGw9IiM2NjdlZWEiLz4KICAgIDxjaXJjbGUgY3g9IjMiIGN5PSItNSIgcj0iMS41IiBmaWxsPSIjNjY3ZWVhIi8+CiAgICA8IS0tIEV5ZSBnbG93IC0tPgogICAgPGNpcmNsZSBjeD0iLTMiIGN5PSItNSIgcj0iMC43IiBmaWxsPSIjNGZhY2ZlIiBvcGFjaXR5PSIwLjgiLz4KICAgIDxjaXJjbGUgY3g9IjMiIGN5PSItNSIgcj0iMC43IiBmaWxsPSIjNGZhY2ZlIiBvcGFjaXR5PSIwLjgiLz4KICAgIDwhLS0gTW91dGgvc3BlYWtlciAtLT4KICAgIDxyZWN0IHg9Ii0yIiB5PSItMSIgd2lkdGg9IjQiIGhlaWdodD0iMSIgcng9IjAuNSIgZmlsbD0iIzljYTNhZiIvPgogICAgPCEtLSBBbnRlbm5hIC0tPgogICAgPGxpbmUgeDE9IjAiIHkxPSItOCIgeDI9IjAiIHkyPSItMTAiIHN0cm9rZT0idXJsKCNpY29uR3JhZGllbnQpIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9Ii0xMCIgcj0iMSIgZmlsbD0iIzRmYWNmZSIvPgogICAgPCEtLSBCb2R5IGNvbm5lY3Rpb24gLS0+CiAgICA8cmVjdCB4PSItMSIgeT0iMiIgd2lkdGg9IjIiIGhlaWdodD0iMyIgZmlsbD0idXJsKCNpY29uR3JhZGllbnQpIi8+CiAgICA8IS0tIE5ldHdvcmsgbm9kZXMgKHJlcHJlc2VudGluZyBtdWx0aS1hZ2VudCkgLS0+CiAgICA8Y2lyY2xlIGN4PSItOCIgY3k9IjAiIHI9IjEiIGZpbGw9IiMxMGY2NTQiIG9wYWNpdHk9IjAuOCIvPgogICAgPGNpcmNsZSBjeD0iOCIgY3k9IjAiIHI9IjEiIGZpbGw9IiMxMGY2NTQiIG9wYWNpdHk9IjAuOCIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9IjgiIHI9IjEiIGZpbGw9IiMxMGY2NTQiIG9wYWNpdHk9IjAuOCIvPgogICAgPCEtLSBDb25uZWN0aW9uIGxpbmVzIC0tPgogICAgPGxpbmUgeDE9Ii02IiB5MT0iLTIiIHgyPSItOCIgeTI9IjAiIHN0cm9rZT0iIzEwZjY1NCIgc3Ryb2tlLXdpZHRoPSIwLjUiIG9wYWNpdHk9IjAuNiIvPgogICAgPGxpbmUgeDE9IjYiIHkxPSItMiIgeDI9IjgiIHkyPSIwIiBzdHJva2U9IiMxMGY2NTQiIHN0cm9rZS13aWR0aD0iMC41IiBvcGFjaXR5PSIwLjYiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iMiIgeDI9IjAiIHkyPSI4IiBzdHJva2U9IiMxMGY2NTQiIHN0cm9rZS13aWR0aD0iMC41IiBvcGFjaXR5PSIwLjYiLz4KICA8L2c+Cjwvc3ZnPg==">
+
+    <!-- Marked.js CDN for markdown parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js"></script>
+</head>
+
+<body>
+    <div class="floating-particles" id="particles"></div>
+    <div class="container">
+        <div class="header">
+            <h1>Research Lifecycle Management Agentic AI</h1>
+            <p>Orchestrating intelligent agents for research lifecycle management at universities</p>
+        </div>
+
+        <div class="main-grid">
+            <div class="chat-container">
+                <div class="section-title">
+                    💬 Agent Conversation
+                </div>
+
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message">
+                        <div class="avatar">AI</div>
+                        <div class="message-content">
+                            Hello! I'm your AI assistant. I can help coordinate multiple specialized agents to handle
+                            complex tasks. What would you like to work on today?
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <input type="text" class="message-input" id="messageInput"
+                        placeholder="Ask me anything or describe your task..." onkeypress="handleKeyPress(event)">
+                    <button class="send-button" onclick="sendMessage()">
+                        <span>Send</span>
+                        <span>→</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="agent-sidebar">
+                <div class="section-title">
+                    Active Agents
+                </div>
+
+                <div class="agent-card" onclick="selectAgent('Research Administrator')">
+                    <div class="agent-name">Research Administrator</div>
+                    <div class="agent-status">
+                        <span class="status-dot"></span>
+                        Ready to assist
+                    </div>
+                </div>
+
+                <div class="agent-card" onclick="selectAgent('Database Manager')">
+                    <div class="agent-name">Database manager</div>
+                    <div class="agent-status">
+                        <span class="status-dot"></span>
+                        Ready to assist
+                    </div>
+                </div>
+
+
+
+                <!-- Session Configuration -->
+                <div class="session-config">
+                    <div class="section-title" style="margin-top: 30px; margin-bottom: 15px; font-size: 1.1rem;">
+                        ⚙️ Session Config
+                    </div>
+
+                    <div class="config-field">
+                        <label for="userId">User ID</label>
+                        <input type="text" id="userId" placeholder="Enter user ID" value="user1">
+                    </div>
+
+                    <div class="config-field">
+                        <label for="roleId">Role</label>
+                        <input type="text" id="roleId" placeholder="Enter role" value="investigator">
+                    </div>
+
+                    <div class="config-field">
+                        <label for="sessionId">Session ID</label>
+                        <input type="text" id="sessionId" placeholder="Enter session ID" value="session1">
+                    </div>
+
+                    <button class="new-session-btn" onclick="generateNewSession()">
+                        🔄 New Session
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Create floating particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            for (let i = 0; i < 15; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.width = Math.random() * 6 + 2 + 'px';
+                particle.style.height = particle.style.width;
+                particle.style.animationDelay = Math.random() * 6 + 's';
+                particle.style.animationDuration = (Math.random() * 4 + 4) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Handle agent selection
+        function selectAgent(agentName) {
+            const input = document.getElementById('messageInput');
+            input.value = `Select agent ${agentName}`;
+            sendMessage();
+
+            // const chatMessages = document.getElementById('chatMessages');
+            // const message = document.createElement('div');
+            // message.className = 'message user';
+            // message.innerHTML = `
+            //     <div class="avatar">You</div>
+            //     <div class="message-content">
+            //         Select agent <strong>${agentName}</strong>?
+            //     </div>
+            // `;
+            // chatMessages.appendChild(message);
+            // chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function getAgentSpecialty(agentName) {
+            const specialties = {
+                'Research Agent': 'gathering and analyzing information from various sources',
+                'Content Creator': 'writing, editing, and creating engaging content',
+                'Data Analyst': 'processing data and generating insights',
+                'Code Assistant': 'code review, debugging, and optimization'
+            };
+            return specialties[agentName] || 'various AI tasks';
+        }
+
+        // API Configuration - Update these with your actual endpoint
+        const API_CONFIG = {
+            endpoint: 'http://127.0.0.1:5000/chat',
+            isStreamingAPI: true,
+            headers: {
+                'Content-Type': 'application/json',
+                // Add any authentication headers here
+                // 'Authorization': 'Bearer your-token-here',
+                // 'X-API-Key': 'your-api-key-here'
+            }
+        };
+
+        // Configure marked.js for better markdown rendering
+        function configureMarked() {
+            if (typeof marked !== 'undefined') {
+                // Configure marked with proper options
+                marked.use({
+                    gfm: true,              // Enable GitHub Flavored Markdown
+                    breaks: true,           // Enable line breaks
+                    tables: true,           // Enable tables
+                    sanitize: false,        // Allow HTML (be careful with user input)
+                    smartypants: true,      // Enable smart quotes and dashes
+                    headerIds: false,       // Disable header IDs to avoid conflicts
+                    mangle: false          // Don't mangle autolinks
+                });
+
+                console.log('Marked.js configured successfully');
+            } else {
+                console.warn('Marked.js not loaded');
+            }
+        }
+
+        // Enhanced markdown renderer with fallback table parsing
+        function renderMarkdown(content) {
+            if (content.includes('html')) return content;
+            if (!content) return '';
+
+            if (typeof marked !== 'undefined') {
+                try {
+                    // Check if content contains tables
+                    const hasTable = content.includes('|') && content.includes('---');
+
+                    if (hasTable) {
+                        console.log('Table detected, processing...');
+                        // Ensure proper table formatting
+                        content = ensureTableFormatting(content);
+                    }
+
+                    const rendered = marked.parse(content);
+                    console.log('Markdown rendered successfully');
+                    return rendered;
+                } catch (error) {
+                    console.warn('Markdown parsing error:', error);
+                    return fallbackTableRender(content);
+                }
+            } else {
+                console.warn('Marked.js not available, using fallback');
+                return fallbackTableRender(content);
+            }
+        }
+
+        // Ensure proper table formatting for marked.js
+        function ensureTableFormatting(content) {
+            const lines = content.split('\n');
+            let inTable = false;
+            let processedLines = [];
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+
+                if (line.includes('|')) {
+                    if (!inTable) {
+                        // Starting a table - ensure there's a blank line before
+                        if (processedLines.length > 0 && processedLines[processedLines.length - 1].trim() !== '') {
+                            processedLines.push('');
+                        }
+                        inTable = true;
+                    }
+
+                    // Process table row
+                    let processedLine = line;
+                    if (line.includes(':-')) {
+                        // This is a separator row, ensure proper formatting
+                        processedLine = line.replace(/\s*:\s*-+\s*/g, ' :--- ').replace(/\s*-+\s*:\s*/g, ' ---: ').replace(/\s*-+\s*/g, ' --- ');
+                    }
+                    processedLines.push(processedLine);
+
+                    // Check if next line is also a table row
+                    if (i + 1 < lines.length && !lines[i + 1].includes('|')) {
+                        // End of table - ensure there's a blank line after
+                        processedLines.push('');
+                        inTable = false;
+                    }
+                } else {
+                    if (inTable) {
+                        // End of table
+                        processedLines.push('');
+                        inTable = false;
+                    }
+                    processedLines.push(line);
+                }
+            }
+
+            return processedLines.join('\n');
+        }
+
+        // Fallback table renderer if marked.js fails
+        function fallbackTableRender(content) {
+            if (!content.includes('|')) {
+                // No table, just convert line breaks
+                return content.replace(/\n/g, '<br>');
+            }
+
+            const lines = content.split('\n');
+            let html = '';
+            let inTable = false;
+            let tableRows = [];
+
+            for (const line of lines) {
+                const trimmedLine = line.trim();
+
+                if (trimmedLine.includes('|') && trimmedLine !== '') {
+                    if (!inTable) {
+                        inTable = true;
+                        tableRows = [];
+                    }
+
+                    // Skip separator rows (containing :--- or ---)
+                    if (!trimmedLine.includes('---')) {
+                        const cells = trimmedLine.split('|').map(cell => cell.trim()).filter(cell => cell !== '');
+                        tableRows.push(cells);
+                    }
+                } else {
+                    if (inTable) {
+                        // End of table, render it
+                        html += renderTableHTML(tableRows);
+                        tableRows = [];
+                        inTable = false;
+                    }
+
+                    if (trimmedLine !== '') {
+                        html += '<p>' + trimmedLine + '</p>';
+                    }
+                }
+            }
+
+            // Handle table at end of content
+            if (inTable && tableRows.length > 0) {
+                html += renderTableHTML(tableRows);
+            }
+
+            return html;
+        }
+
+        // Render table as HTML
+        function renderTableHTML(rows) {
+            if (rows.length === 0) return '';
+
+            let html = '<table>';
+
+            // First row as header
+            if (rows.length > 0) {
+                html += '<thead><tr>';
+                for (const cell of rows[0]) {
+                    html += '<th>' + cell + '</th>';
+                }
+                html += '</tr></thead>';
+            }
+
+            // Remaining rows as body
+            if (rows.length > 1) {
+                html += '<tbody>';
+                for (let i = 1; i < rows.length; i++) {
+                    html += '<tr>';
+                    for (const cell of rows[i]) {
+                        html += '<td>' + cell + '</td>';
+                    }
+                    html += '</tr>';
+                }
+                html += '</tbody>';
+            }
+
+            html += '</table>';
+            return html;
+        }
+
+        // Simulate streaming for non-streaming APIs with markdown support
+        async function* simulateStreaming(text, delay = 30) {
+            // For markdown content, we'll stream by logical chunks rather than words
+            const isMarkdown = text.includes('|') || text.includes('#') || text.includes('**') || text.includes('```');
+
+            if (isMarkdown) {
+                // Stream markdown by lines for better table rendering
+                const lines = text.split('\n');
+                let currentText = '';
+
+                for (const line of lines) {
+                    currentText += (currentText ? '\n' : '') + line;
+                    yield { content: currentText, isComplete: false };
+                    await new Promise(resolve => setTimeout(resolve, delay * 2)); // Slower for markdown
+                }
+
+                // Final complete render
+                yield { content: currentText, isComplete: true };
+            } else {
+                // Regular word-by-word streaming for plain text
+                const words = text.split(/(\s+)/); // Keep whitespace
+                let currentText = '';
+
+                for (const word of words) {
+                    currentText += word;
+                    yield { content: currentText, isComplete: false };
+                    await new Promise(resolve => setTimeout(resolve, delay));
+                }
+
+                yield { content: currentText, isComplete: true };
+            }
+        }
+
+
+        // Handle streaming response parsing
+        async function* parseStreamResponse(response) {
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder();
+            let buffer = '';
+
+            try {
+                while (true) {
+                    const { done, value } = await reader.read();
+
+                    if (done) break;
+
+                    buffer += decoder.decode(value, { stream: true });
+                    const lines = buffer.split('\n');
+
+                    // Keep the last incomplete line in buffer
+                    buffer = lines.pop() || '';
+
+                    for (const line of lines) {
+                        const trimmedLine = line.trim();
+                        if (!trimmedLine) continue;
+
+                        // Handle different streaming formats
+                        if (trimmedLine.startsWith('data: ')) {
+                            const data = trimmedLine.slice(6);
+                            if (data === '[DONE]') continue;
+
+                            try {
+                                const parsed = JSON.parse(data);
+                                yield parsed;
+                            } catch (e) {
+                                // If not JSON, treat as plain text
+                                yield { content: data };
+                            }
+                        } else if (trimmedLine.startsWith('{')) {
+                            // Handle JSON lines
+                            try {
+                                const parsed = JSON.parse(trimmedLine);
+                                yield parsed;
+                            } catch (e) {
+                                console.warn('Failed to parse JSON:', trimmedLine);
+                            }
+                        } else {
+                            // Handle plain text chunks
+                            yield { content: trimmedLine };
+                        }
+                    }
+                }
+
+                // Handle any remaining buffer content
+                if (buffer.trim()) {
+                    try {
+                        const parsed = JSON.parse(buffer);
+                        yield parsed;
+                    } catch (e) {
+                        yield { content: buffer };
+                    }
+                }
+            } finally {
+                reader.releaseLock();
+            }
+        }
+
+        // Extract content from different response formats
+        function extractContent(chunk) {
+            // Handle different streaming response formats
+            if (chunk.choices && chunk.choices[0] && chunk.choices[0].delta && chunk.choices[0].delta.content) {
+                return chunk.choices[0].delta.content; // OpenAI format
+            } else if (chunk.delta && chunk.delta.content) {
+                return chunk.delta.content; // Alternative delta format
+            } else if (chunk.content) {
+                return chunk.content; // Simple content format
+            } else if (chunk.text) {
+                return chunk.text; // Text format
+            } else if (chunk.message) {
+                return chunk.message; // Message format
+            } else if (typeof chunk === 'string') {
+                return chunk; // Plain string
+            }
+            return '';
+        }
+
+        // Helper function to generate session ID if needed
+        function generateSessionId() {
+            return 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+        }
+
+        // Generate new session ID
+        function generateNewSession() {
+            const sessionId = 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+            document.getElementById('sessionId').value = sessionId;
+
+            // Clear chat messages to start fresh
+            const chatMessages = document.getElementById('chatMessages');
+            chatMessages.innerHTML = `
+                <div class="message">
+                    <div class="avatar">AI</div>
+                    <div class="message-content">
+                        🔄 New session started! Session ID: <strong>${sessionId}</strong><br>
+                        Hello! I'm your AI assistant. I can help coordinate multiple specialized agents to handle complex tasks. What would you like to work on today?
+                    </div>
+                </div>
+            `;
+
+            // Update metrics
+            updateMetrics();
+        }
+
+        // Initialize session on page load
+        function initializeSession() {
+            if (!document.getElementById('sessionId').value) {
+                generateNewSession();
+            }
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const sendButton = document.querySelector('.send-button');
+            const message = input.value.trim();
+            if (!message) return;
+
+            const chatMessages = document.getElementById('chatMessages');
+
+            // Generate unique ID for this message
+            const messageId = 'msg_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+
+            // Add user message
+            const userMessage = document.createElement('div');
+            userMessage.className = 'message user';
+            userMessage.innerHTML = `
+                <div class="avatar">You</div>
+                <div class="message-content">${message}</div>
+            `;
+            chatMessages.appendChild(userMessage);
+
+            // Clear input and disable button
+            input.value = '';
+            sendButton.disabled = true;
+            sendButton.innerHTML = '<span>Sending...</span><span>⏳</span>';
+
+            // Add loading message that will be replaced with streaming content
+            const loadingMessage = document.createElement('div');
+            loadingMessage.className = 'message loading';
+            loadingMessage.id = 'loading_' + messageId;
+            loadingMessage.innerHTML = `
+                <div class="avatar">AI</div>
+                <div class="message-content">
+                    <div class="typing-indicator">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    Connecting to AI...
+                </div>
+            `;
+            chatMessages.appendChild(loadingMessage);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            try {
+                // Send POST request to API
+                const response = await fetch(API_CONFIG.endpoint, {
+                    method: 'POST',
+                    headers: API_CONFIG.headers,
+                    body: JSON.stringify({
+                        message: message,
+                        timestamp: new Date().toISOString(),
+                        user_id: document.getElementById('userId').value || 'anonymous',
+                        session_id: document.getElementById('sessionId').value || generateSessionId(),
+                        stream: API_CONFIG.isStreamingAPI, // Enable streaming only if supported
+                        // Add any other required fields for your API
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                // Remove loading message and create streaming message container
+                const loadingMsg = document.getElementById('loading_' + messageId);
+                if (loadingMsg) {
+                    loadingMsg.remove();
+                }
+
+                // Create AI message container for streaming content with unique ID
+                const aiMessage = document.createElement('div');
+                aiMessage.className = 'message streaming';
+                aiMessage.innerHTML = `
+                    <div class="avatar">AI</div>
+                    <div class="message-content" id="content_${messageId}">
+                        <span class="cursor">|</span>
+                    </div>
+                `;
+                chatMessages.appendChild(aiMessage);
+
+                // Get the specific content element for this message
+                const contentElement = document.getElementById('content_' + messageId);
+                let fullContent = '';
+
+                // Update button to show streaming status
+                sendButton.innerHTML = '<span>Streaming...</span><span>⚡</span>';
+
+                if (API_CONFIG.isStreamingAPI) {
+                    // Handle real streaming API
+                    for await (const chunk of parseStreamResponse(response)) {
+                        const content = extractContent(chunk);
+                        if (content) {
+                            fullContent += content;
+                            if (contentElement) {
+                                const renderedHTML = renderMarkdown(fullContent);
+                                contentElement.innerHTML = renderedHTML + '<span class="cursor">|</span>';
+                                chatMessages.scrollTop = chatMessages.scrollHeight;
+                            }
+                        }
+                    }
+                } else {
+                    // Handle non-streaming API with simulated streaming
+                    const data = await response.json();
+
+                    // Extract response text from different formats
+                    let responseText = '';
+                    if (data.message) {
+                        responseText = data.message;
+                    } else if (data.response) {
+                        responseText = data.response;
+                    } else if (data.content) {
+                        responseText = data.content;
+                    } else if (data.choices && data.choices[0] && data.choices[0].message) {
+                        responseText = data.choices[0].message.content;
+                    } else if (data.text) {
+                        responseText = data.text;
+                    } else if (data.title) {
+                        // For demo API (jsonplaceholder)
+                        responseText = `✅ Task completed successfully! Created: "${data.title}" (ID: ${data.id})`;
+                    } else {
+                        responseText = `Received response: ${JSON.stringify(data, null, 2)}`;
+                    }
+
+                    // Simulate streaming by displaying content progressively
+                    for await (const chunk of simulateStreaming(responseText, 50)) {
+                        if (contentElement) {
+                            if (chunk.isComplete) {
+                                // Final render with complete markdown
+                                fullContent = chunk.content;
+                                const renderedHTML = renderMarkdown(fullContent);
+                                contentElement.innerHTML = renderedHTML + '<span class="cursor">|</span>';
+                            } else {
+                                // Progressive render - for plain text, show as text; for markdown, render final
+                                fullContent = chunk.content;
+                                if (chunk.content.includes('|') || chunk.content.includes('#') || chunk.content.includes('**')) {
+                                    // For markdown content, render the HTML
+                                    const renderedHTML = renderMarkdown(fullContent);
+                                    contentElement.innerHTML = renderedHTML + '<span class="cursor">|</span>';
+                                } else {
+                                    // For plain text, show progressive text
+                                    contentElement.innerHTML = fullContent.replace(/\n/g, '<br>') + '<span class="cursor">|</span>';
+                                }
+                            }
+                            chatMessages.scrollTop = chatMessages.scrollHeight;
+                        }
+                    }
+                }
+
+                // Remove cursor and finalize message with markdown rendering
+                if (contentElement) {
+                    const finalRenderedHTML = renderMarkdown(fullContent) || 'No response received.';
+                    contentElement.innerHTML = finalRenderedHTML;
+                    contentElement.id = ''; // Remove ID to prevent conflicts
+                }
+                aiMessage.className = 'message'; // Remove streaming class
+
+                // Update metrics on success
+                updateMetrics();
+
+            } catch (error) {
+                console.error('API Error:', error);
+
+                // Remove loading message if it exists
+                const loadingMsg = document.getElementById('loading_' + messageId);
+                if (loadingMsg) {
+                    loadingMsg.remove();
+                }
+
+                // Check if we have a streaming message to replace
+                const streamingMsg = document.getElementById('content_' + messageId);
+                if (streamingMsg) {
+                    streamingMsg.parentElement.parentElement.remove();
+                }
+
+                // Add error message
+                const errorMessage = document.createElement('div');
+                errorMessage.className = 'message error';
+                errorMessage.innerHTML = `
+                    <div class="avatar">❌</div>
+                    <div class="message-content">
+                        <strong>API Error:</strong> ${error.message}<br>
+                        <small>Please check your API endpoint configuration. For demo purposes, this will simulate a response.</small>
+                    </div>
+                `;
+                chatMessages.appendChild(errorMessage);
+
+                // Add simulated response for demo
+                setTimeout(async () => {
+                    const demoMessageId = 'demo_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+                    const demoMessage = document.createElement('div');
+                    demoMessage.className = 'message streaming';
+                    demoMessage.innerHTML = `
+                        <div class="avatar">AI</div>
+                        <div class="message-content" id="demo_content_${demoMessageId}">
+                            <span class="cursor">|</span>
+                        </div>
+                    `;
+                    chatMessages.appendChild(demoMessage);
+
+                    const demoContentElement = document.getElementById('demo_content_' + demoMessageId);
+                    let demoContent = '';
+                    const demoResponse = `I understand you're asking about: "${message}". This is a simulated streaming response to demonstrate the UI functionality. In a real implementation, this would be connected to your AI API endpoint. The streaming effect creates a more natural conversation experience.`;
+
+                    for await (const chunk of simulateStreaming(demoResponse, 40)) {
+                        if (demoContentElement) {
+                            if (chunk.isComplete) {
+                                demoContent = chunk.content;
+                                const renderedHTML = renderMarkdown(demoContent);
+                                demoContentElement.innerHTML = renderedHTML + '<span class="cursor">|</span>';
+                            } else {
+                                demoContent = chunk.content;
+                                demoContentElement.innerHTML = demoContent.replace(/\n/g, '<br>') + '<span class="cursor">|</span>';
+                            }
+                            chatMessages.scrollTop = chatMessages.scrollHeight;
+                        }
+                    }
+
+                    if (demoContentElement) {
+                        const finalRenderedHTML = renderMarkdown(demoContent);
+                        demoContentElement.innerHTML = finalRenderedHTML;
+                        demoContentElement.id = ''; // Remove ID to prevent conflicts
+                    }
+                    demoMessage.className = 'message';
+                    updateMetrics();
+                }, 1000);
+
+            } finally {
+                // Re-enable button
+                sendButton.disabled = false;
+                sendButton.innerHTML = '<span>Send</span><span>→</span>';
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        // Update metrics with animation
+        function updateMetrics() {
+            return;
+            const tasksCompleted = document.getElementById('tasksCompleted');
+            const currentTasks = parseInt(tasksCompleted.textContent);
+            const newTasks = currentTasks + Math.floor(Math.random() * 3) + 1;
+
+            animateCounter(tasksCompleted, currentTasks, newTasks);
+
+            // Randomly update efficiency
+            const efficiency = document.getElementById('efficiency');
+            const newEfficiency = Math.floor(Math.random() * 6) + 90;
+            efficiency.textContent = newEfficiency + '%';
+        }
+
+        function animateCounter(element, start, end) {
+            const duration = 1000;
+            const startTime = performance.now();
+
+            function updateCounter(currentTime) {
+                const elapsed = currentTime - startTime;
+                const progress = Math.min(elapsed / duration, 1);
+                const current = Math.floor(start + (end - start) * progress);
+                element.textContent = current;
+
+                if (progress < 1) {
+                    requestAnimationFrame(updateCounter);
+                }
+            }
+
+            requestAnimationFrame(updateCounter);
+        }
+
+        // Initialize particles when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log(marked);
+            createParticles();
+
+            // Auto-update metrics every 30 seconds
+            // setInterval(updateMetrics, 30000);
+        });
+    </script>
+</body>
+
+</html>

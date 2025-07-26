@@ -1,0 +1,478 @@
+[
+  {
+    "name": "Elena Petrova",
+    "email": "e.petrova@email.com",
+    "role": "investigator",
+    "affiliation": "College of Engineering",
+    "created_at": "2025-07-25T17:42:49Z"
+  },
+  {
+    "name": "Marcus Chen",
+    "email": "m.chen@university.edu",
+    "role": "investigator",
+    "affiliation": "Department of Computer Science",
+    "created_at": "2025-07-24T14:30:22Z"
+  },
+  {
+    "name": "Sarah Johnson",
+    "email": "s.johnson@research.org",
+    "role": "investigator",
+    "affiliation": "Institute of Living Things",
+    "created_at": "2025-07-23T09:15:33Z"
+  },
+  {
+    "name": "David Rodriguez",
+    "email": "d.rodriguez@tech.edu",
+    "role": "investigator",
+    "affiliation": "AI Initiative",
+    "created_at": "2025-07-22T16:45:11Z"
+  },
+  {
+    "name": "Anna Kowalski",
+    "email": "a.kowalski@science.ac.uk",
+    "role": "investigator",
+    "affiliation": "Department of Natural Sciences",
+    "created_at": "2025-07-21T11:20:44Z"
+  },
+  {
+    "name": "James Thompson",
+    "email": "j.thompson@biotech.com",
+    "role": "investigator",
+    "affiliation": "Department of Biotechnology",
+    "created_at": "2025-07-20T13:55:17Z"
+  },
+  {
+    "name": "Maria Garcia",
+    "email": "m.garcia@physics.edu",
+    "role": "investigator",
+    "affiliation": "Department of Physics",
+    "created_at": "2025-07-19T08:30:29Z"
+  },
+  {
+    "name": "Robert Kim",
+    "email": "r.kim@engineering.org",
+    "role": "investigator",
+    "affiliation": "College of Engineering",
+    "created_at": "2025-07-18T15:12:56Z"
+  },
+  {
+    "name": "Lisa Anderson",
+    "email": "l.anderson@chemistry.edu",
+    "role": "investigator",
+    "affiliation": "Department of Chemistry",
+    "created_at": "2025-07-17T10:45:38Z"
+  },
+  {
+    "name": "Ahmed Hassan",
+    "email": "a.hassan@math.ac.ae",
+    "role": "investigator",
+    "affiliation": "Department of Mathematics",
+    "created_at": "2025-07-16T12:22:15Z"
+  },
+  {
+    "name": "Emma Wilson",
+    "email": "e.wilson@biology.edu",
+    "role": "investigator",
+    "affiliation": "School of Biological Sciences",
+    "created_at": "2025-07-15T14:18:42Z"
+  },
+  {
+    "name": "Michael Brown",
+    "email": "m.brown@materials.org",
+    "role": "investigator",
+    "affiliation": "Materials Science Institute",
+    "created_at": "2025-07-14T09:33:27Z"
+  },
+  {
+    "name": "Sophie Dubois",
+    "email": "s.dubois@research.fr",
+    "role": "investigator",
+    "affiliation": "Institute for Advanced Research",
+    "created_at": "2025-07-13T16:27:53Z"
+  },
+  {
+    "name": "Carlos Mendoza",
+    "email": "c.mendoza@energia.mx",
+    "role": "investigator",
+    "affiliation": "Department of Energy Studies",
+    "created_at": "2025-07-12T11:41:19Z"
+  },
+  {
+    "name": "Yuki Tanaka",
+    "email": "y.tanaka@tech.jp",
+    "role": "investigator",
+    "affiliation": "Center for Technology Innovation",
+    "created_at": "2025-07-11T13:56:08Z"
+  },
+  {
+    "name": "Rachel Green",
+    "email": "r.green@environmental.edu",
+    "role": "investigator",
+    "affiliation": "Department of Environmental Science",
+    "created_at": "2025-07-10T15:14:31Z"
+  },
+  {
+    "name": "Alessandro Rossi",
+    "email": "a.rossi@fisica.it",
+    "role": "investigator",
+    "affiliation": "Institute of Theoretical Physics",
+    "created_at": "2025-07-09T08:49:17Z"
+  },
+  {
+    "name": "Priya Sharma",
+    "email": "p.sharma@bioengineering.in",
+    "role": "investigator",
+    "affiliation": "Department of Bioengineering",
+    "created_at": "2025-07-08T12:35:44Z"
+  },
+  {
+    "name": "Thomas Mueller",
+    "email": "t.mueller@chemie.de",
+    "role": "investigator",
+    "affiliation": "Institute of Chemical Engineering",
+    "created_at": "2025-07-07T10:28:52Z"
+  },
+  {
+    "name": "Isabella Silva",
+    "email": "i.silva@medicina.br",
+    "role": "investigator",
+    "affiliation": "School of Medicine",
+    "created_at": "2025-07-06T14:52:36Z"
+  },
+  {
+    "name": "Dmitri Volkov",
+    "email": "d.volkov@moscow.edu",
+    "role": "investigator",
+    "affiliation": "Department of Applied Sciences",
+    "created_at": "2025-07-05T09:18:25Z"
+  },
+  {
+    "name": "Catherine Wright",
+    "email": "c.wright@oxford.ac.uk",
+    "role": "investigator",
+    "affiliation": "Department of Linguistics",
+    "created_at": "2025-07-04T11:35:47Z"
+  },
+  {
+    "name": "Hassan Al-Rashid",
+    "email": "h.alrashid@kaust.edu.sa",
+    "role": "investigator",
+    "affiliation": "Institute of Renewable Energy",
+    "created_at": "2025-07-03T16:22:13Z"
+  },
+  {
+    "name": "Nina Larsson",
+    "email": "n.larsson@ki.se",
+    "role": "investigator",
+    "affiliation": "Department of Neuroscience",
+    "created_at": "2025-07-02T08:45:31Z"
+  },
+  {
+    "name": "François Dubois",
+    "email": "f.dubois@sorbonne.fr",
+    "role": "investigator",
+    "affiliation": "Department of Philosophy",
+    "created_at": "2025-07-01T13:28:19Z"
+  },
+  {
+    "name": "Kenji Nakamura",
+    "email": "k.nakamura@tokyo.ac.jp",
+    "role": "investigator",
+    "affiliation": "Department of Robotics",
+    "created_at": "2025-06-30T10:15:42Z"
+  },
+  {
+    "name": "Olivia Mitchell",
+    "email": "o.mitchell@stanford.edu",
+    "role": "investigator",
+    "affiliation": "Department of Cognitive Science",
+    "created_at": "2025-06-29T14:52:08Z"
+  },
+  {
+    "name": "Lars Andersen",
+    "email": "l.andersen@dtu.dk",
+    "role": "investigator",
+    "affiliation": "Department of Oceanography",
+    "created_at": "2025-06-28T12:33:56Z"
+  },
+  {
+    "name": "Rajesh Patel",
+    "email": "r.patel@iit.ac.in",
+    "role": "investigator",
+    "affiliation": "Department of Data Science",
+    "created_at": "2025-06-27T09:41:27Z"
+  },
+  {
+    "name": "Marina Santos",
+    "email": "m.santos@usp.br",
+    "role": "investigator",
+    "affiliation": "Department of Archaeology",
+    "created_at": "2025-06-26T15:17:34Z"
+  },
+  {
+    "name": "George Papadopoulos",
+    "email": "g.papadopoulos@uoa.gr",
+    "role": "investigator",
+    "affiliation": "Institute of Classical Studies",
+    "created_at": "2025-06-25T11:29:48Z"
+  },
+  {
+    "name": "Ingrid Müller",
+    "email": "i.mueller@ethz.ch",
+    "role": "investigator",
+    "affiliation": "Department of Quantum Physics",
+    "created_at": "2025-06-24T07:56:21Z"
+  },
+  {
+    "name": "Chen Wei",
+    "email": "c.wei@tsinghua.edu.cn",
+    "role": "investigator",
+    "affiliation": "Institute of Nanotechnology",
+    "created_at": "2025-06-23T16:43:15Z"
+  },
+  {
+    "name": "Fatima Al-Zahra",
+    "email": "f.alzahra@aub.edu.lb",
+    "role": "investigator",
+    "affiliation": "Department of Middle Eastern Studies",
+    "created_at": "2025-06-22T13:18:39Z"
+  },
+  {
+    "name": "Viktor Petrov",
+    "email": "v.petrov@msu.ru",
+    "role": "investigator",
+    "affiliation": "Department of Astronomy",
+    "created_at": "2025-06-21T10:25:52Z"
+  },
+  {
+    "name": "Amanda Torres",
+    "email": "a.torres@unam.mx",
+    "role": "investigator",
+    "affiliation": "Department of Anthropology",
+    "created_at": "2025-06-20T14:37:18Z"
+  },
+  {
+    "name": "Hiroshi Yamamoto",
+    "email": "h.yamamoto@kyoto-u.ac.jp",
+    "role": "investigator",
+    "affiliation": "Department of Genetics",
+    "created_at": "2025-06-19T08:14:26Z"
+  },
+  {
+    "name": "Rebecca O'Connor",
+    "email": "r.oconnor@tcd.ie",
+    "role": "investigator",
+    "affiliation": "Department of Literary Studies",
+    "created_at": "2025-06-18T12:51:43Z"
+  },
+  {
+    "name": "Paolo Bianchi",
+    "email": "p.bianchi@unibo.it",
+    "role": "investigator",
+    "affiliation": "Department of Art History",
+    "created_at": "2025-06-17T09:28:17Z"
+  },
+  {
+    "name": "Astrid Johansson",
+    "email": "a.johansson@kth.se",
+    "role": "investigator",
+    "affiliation": "Institute of Digital Humanities",
+    "created_at": "2025-06-16T15:46:29Z"
+  },
+  {
+    "name": "Benjamin Clark",
+    "email": "b.clark@caltech.edu",
+    "role": "investigator",
+    "affiliation": "Department of Aerospace Engineering",
+    "created_at": "2025-06-15T11:33:55Z"
+  },
+  {
+    "name": "Nadia Khoury",
+    "email": "n.khoury@auc.edu.eg",
+    "role": "investigator",
+    "affiliation": "Department of Public Policy",
+    "created_at": "2025-06-14T13:19:41Z"
+  },
+  {
+    "name": "Sebastian Wagner",
+    "email": "s.wagner@tum.de",
+    "role": "investigator",
+    "affiliation": "Department of Mechanical Engineering",
+    "created_at": "2025-06-13T08:57:12Z"
+  },
+  {
+    "name": "Lucia Fernandez",
+    "email": "l.fernandez@uc3m.es",
+    "role": "investigator",
+    "affiliation": "Department of Economics",
+    "created_at": "2025-06-12T16:24:38Z"
+  },
+  {
+    "name": "Arjun Kapoor",
+    "email": "a.kapoor@nus.edu.sg",
+    "role": "investigator",
+    "affiliation": "Department of Urban Planning",
+    "created_at": "2025-06-11T10:42:16Z"
+  },
+  {
+    "name": "Marie Lefebvre",
+    "email": "m.lefebvre@inria.fr",
+    "role": "investigator",
+    "affiliation": "Institute of Information Systems",
+    "created_at": "2025-06-10T14:58:23Z"
+  },
+  {
+    "name": "Daniel Kim",
+    "email": "d.kim@kaist.ac.kr",
+    "role": "investigator",
+    "affiliation": "Department of Industrial Design",
+    "created_at": "2025-06-09T12:15:47Z"
+  },
+  {
+    "name": "Elena Popova",
+    "email": "e.popova@spbu.ru",
+    "role": "investigator",
+    "affiliation": "Department of Geology",
+    "created_at": "2025-06-08T09:31:58Z"
+  },
+  {
+    "name": "Matthew Johnson",
+    "email": "m.johnson@ubc.ca",
+    "role": "investigator",
+    "affiliation": "Department of Forest Sciences",
+    "created_at": "2025-06-07T15:48:14Z"
+  },
+  {
+    "name": "Samira Hassan",
+    "email": "s.hassan@aus.edu",
+    "role": "investigator",
+    "affiliation": "Department of International Relations",
+    "created_at": "2025-06-06T11:26:32Z"
+  },
+  {
+    "name": "Jan Kowalczyk",
+    "email": "j.kowalczyk@uw.edu.pl",
+    "role": "investigator",
+    "affiliation": "Department of Sociology",
+    "created_at": "2025-06-05T13:44:19Z"
+  },
+  {
+    "name": "Sofia Andersson",
+    "email": "s.andersson@gu.se",
+    "role": "investigator",
+    "affiliation": "Department of Marine Biology",
+    "created_at": "2025-06-04T08:17:56Z"
+  },
+  {
+    "name": "Ravi Sharma",
+    "email": "r.sharma@iisc.ac.in",
+    "role": "investigator",
+    "affiliation": "Department of Statistical Sciences",
+    "created_at": "2025-06-03T16:53:41Z"
+  },
+  {
+    "name": "Camille Martin",
+    "email": "c.martin@univ-lyon1.fr",
+    "role": "investigator",
+    "affiliation": "Department of Musicology",
+    "created_at": "2025-06-02T10:38:28Z"
+  },
+  {
+    "name": "Wei Zhang",
+    "email": "w.zhang@pku.edu.cn",
+    "role": "investigator",
+    "affiliation": "Institute of Computational Biology",
+    "created_at": "2025-06-01T14:21:15Z"
+  },
+  {
+    "name": "Julia Novak",
+    "email": "j.novak@cuni.cz",
+    "role": "investigator",
+    "affiliation": "Department of Psychology",
+    "created_at": "2025-05-31T12:55:33Z"
+  },
+  {
+    "name": "Omar Al-Mahmoud",
+    "email": "o.almahmoud@qu.edu.qa",
+    "role": "investigator",
+    "affiliation": "Department of Architecture",
+    "created_at": "2025-05-30T09:12:47Z"
+  },
+  {
+    "name": "Isabella Rossi",
+    "email": "i.rossi@polimi.it",
+    "role": "investigator",
+    "affiliation": "Institute of Advanced Materials",
+    "created_at": "2025-05-29T15:39:22Z"
+  },
+  {
+    "name": "Erik Nielsen",
+    "email": "e.nielsen@aau.dk",
+    "role": "investigator",
+    "affiliation": "Department of Sustainable Technology",
+    "created_at": "2025-05-28T11:46:58Z"
+  },
+  {
+    "name": "Grace Lee",
+    "email": "g.lee@snu.ac.kr",
+    "role": "investigator",
+    "affiliation": "Department of Media Studies",
+    "created_at": "2025-05-27T13:23:41Z"
+  },
+  {
+    "name": "Pierre Dubois",
+    "email": "p.dubois@epfl.ch",
+    "role": "investigator",
+    "affiliation": "Institute of Biomedical Engineering",
+    "created_at": "2025-05-26T08:58:17Z"
+  },
+  {
+    "name": "Fatou Diallo",
+    "email": "f.diallo@ucad.edu.sn",
+    "role": "investigator",
+    "affiliation": "Department of African Studies",
+    "created_at": "2025-05-25T16:14:35Z"
+  },
+  {
+    "name": "Antonio Silva",
+    "email": "a.silva@tecnico.ulisboa.pt",
+    "role": "investigator",
+    "affiliation": "Department of Civil Engineering",
+    "created_at": "2025-05-24T10:41:52Z"
+  },
+  {
+    "name": "Yuki Sato",
+    "email": "y.sato@tohoku.ac.jp",
+    "role": "investigator",
+    "affiliation": "Department of Earth Sciences",
+    "created_at": "2025-05-23T14:27:19Z"
+  },
+  {
+    "name": "Natasha Ivanova",
+    "email": "n.ivanova@nsu.ru",
+    "role": "investigator",
+    "affiliation": "Institute of Molecular Medicine",
+    "created_at": "2025-05-22T12:34:46Z"
+  },
+  {
+    "name": "Carlos Ramirez",
+    "email": "c.ramirez@udec.cl",
+    "role": "investigator",
+    "affiliation": "Department of Agricultural Science",
+    "created_at": "2025-05-21T09:51:23Z"
+  },
+  {
+    "name": "Hannah Schmidt",
+    "email": "h.schmidt@uni-heidelberg.de",
+    "role": "investigator",
+    "affiliation": "Department of Comparative Literature",
+    "created_at": "2025-05-20T15:18:37Z"
+  },
+  {
+    "name": "Tariq Al-Ahmad",
+    "email": "t.alahmad@uaeu.ac.ae",
+    "role": "investigator",
+    "affiliation": "Institute of Desert Studies",
+    "created_at": "2025-05-19T11:45:14Z"
+  }
+]
