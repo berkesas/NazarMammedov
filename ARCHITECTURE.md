@@ -3,22 +3,25 @@
 ```markdown
 # Architecture Overview
 
-Below, sketch (ASCII, hand-drawn JPEG/PNG pasted in, or ASCII art) the high-level components of your agent.
+![Architecture Diagram](images/architecture.png)
 
 ## Components
 
 1. **User Interface**  
-   - E.g., Streamlit, CLI, Slack bot  
+   - User interface is plain HTML, run by 'python -m http.server 8000' command.
+   
+   ![User interface](images/ui.jpg)
 
 2. **Agent Core**  
-   - **Planner**: how you break down tasks  
+   - **Planner**: The agent is asked to 
    - **Executor**: LLM prompt + tool-calling logic  
    - **Memory**: vector store, cache, or on-disk logs  
 
 3. **Tools / APIs**  
-   - E.g., Google Gemini API, Tools, etc
+   - Google Gemini used as LLM model
+   - Firestore database is used to view, create and update projects, people
+
 
 4. **Observability**  
-   - Logging of each reasoning step  
-   - Error handling / retries  
+   - Basic error handling / retries are handled in `generate_responses()` function in `src/agent.py` file
 

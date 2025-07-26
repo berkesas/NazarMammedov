@@ -170,12 +170,6 @@ async def chat_with_agent():
 
     # Return as Server-Sent Events (SSE) for streaming
     return Response(generate_responses(), mimetype="text/event-stream")
-    # return Response(
-    #     stream_with_context(generate_responses), mimetype="text/event-stream"
-    # )
-    # return jsonify(
-    #     {"response": response_text}
-    # )  # For non-streaming response, you can use this line instead
 
 
 @app.route("/health", methods=["GET"])
@@ -184,8 +178,4 @@ def health_check():
 
 
 if __name__ == "__main__":
-    # The ADK CLI (`adk web` or `adk run`) automatically finds the 'runner' object.
-    # This asyncio.run(main()) block is for running this file directly to test the runner.
-    # When using `adk web`, you don't need to call main().
-    # asyncio.run(main())
     app.run(debug=True, host="0.0.0.0", port=5000)

@@ -124,28 +124,6 @@
             const input = document.getElementById('messageInput');
             input.value = `Select agent ${agentName}`;
             sendMessage();
-
-            // const chatMessages = document.getElementById('chatMessages');
-            // const message = document.createElement('div');
-            // message.className = 'message user';
-            // message.innerHTML = `
-            //     <div class="avatar">You</div>
-            //     <div class="message-content">
-            //         Select agent <strong>${agentName}</strong>?
-            //     </div>
-            // `;
-            // chatMessages.appendChild(message);
-            // chatMessages.scrollTop = chatMessages.scrollHeight;
-        }
-
-        function getAgentSpecialty(agentName) {
-            const specialties = {
-                'Research Agent': 'gathering and analyzing information from various sources',
-                'Content Creator': 'writing, editing, and creating engaging content',
-                'Data Analyst': 'processing data and generating insights',
-                'Code Assistant': 'code review, debugging, and optimization'
-            };
-            return specialties[agentName] || 'various AI tasks';
         }
 
         // API Configuration - Update these with your actual endpoint
@@ -154,9 +132,6 @@
             isStreamingAPI: true,
             headers: {
                 'Content-Type': 'application/json',
-                // Add any authentication headers here
-                // 'Authorization': 'Bearer your-token-here',
-                // 'X-API-Key': 'your-api-key-here'
             }
         };
 
