@@ -2,7 +2,7 @@
 
 The purpose of this project is to develop prototype functions for Research Lifecycle Management Agentic AI to be used at institutions where research projects are conducted at large scale such as universities, colleges, etc. It is a complex process and this project develops foundations of the framework. Research lifecycle consists of the following stages.
 
-![Research Lifecycle Stages](images/research-lifecycle.png)
+![Research Lifecycle Stages](images/research-lifecycle.jpg)
 
 ## Setup instructions
 
