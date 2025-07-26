@@ -1,6 +1,3 @@
-## 2. `ARCHITECTURE.md`
-
-```markdown
 # Architecture Overview
 
 ![Architecture Diagram](images/architecture.png)
@@ -23,5 +20,4 @@
 
 
 4. **Observability**  
-   - Basic error handling / retries are handled in `generate_responses()` function in `src/agent.py` file
-
+   - Basic error handling / retries are handled in `generate_responses()` function in `src/agent.py` file.
